@@ -4,7 +4,7 @@
   "description": "cm-db",
   "main": "index.js",
   "scripts": {
-    "start": "node ./src/index",
+    "start": "npx json-server --watch db.json",
     "dev": "nodemon ./src/index"
   },
   "author": "",
